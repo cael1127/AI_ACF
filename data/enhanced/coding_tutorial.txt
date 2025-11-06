@@ -1,0 +1,125 @@
+Python basics for beginners:
+To print "Hello, World!" use: print("Hello, World!")
+Variables store values. Example: x = 5 assigns the value 5 to variable x.
+Strings are text enclosed in quotes. Example: name = "Alice"
+Numbers can be integers (5) or floats (3.14).
+Booleans are True or False values.
+
+Control flow:
+Use if statements for decisions: if age >= 18: print("Adult")
+else handles alternative cases: else: print("Minor")
+elif adds more conditions: elif age < 13: print("Child")
+Use for loops to iterate: for i in range(5): print(i)
+Use while loops to repeat until condition: while count < 10: count += 1
+
+Functions:
+Define functions with def: def greet(name): return f"Hello {name}"
+Call functions with arguments: result = greet("Bob")
+Functions can return values using return statement.
+Default parameters provide fallback values: def power(x, n=2): return x**n
+
+Data structures:
+Lists are ordered collections: my_list = [1, 2, 3]
+Dictionaries store key-value pairs: person = {"name": "Alice", "age": 30}
+Tuples are immutable: coordinates = (10, 20)
+Sets contain unique elements: unique = {1, 2, 3}
+
+String operations:
+Concatenate strings with +: "Hello" + "World" = "HelloWorld"
+Convert to string: str(123) = "123"
+Get length: len("Python") = 6
+Access characters: "Hello"[0] = "H"
+
+Common programming patterns:
+Count items: count = 0; for item in items: count += 1
+Filter elements: odds = [x for x in range(10) if x % 2 == 1]
+Map operations: squares = [x**2 for x in range(10)]
+Combine lists: combined = list1 + list2
+
+Working with files:
+Open file: file = open("data.txt", "r")
+Read content: content = file.read()
+Write to file: file.write("Hello")
+Always close: file.close()
+Use with for safety: with open("file.txt") as f: content = f.read()
+
+Error handling:
+Try-except blocks catch errors: try: result = 10 / 0 except ZeroDivisionError: print("Error")
+Raise exceptions: if x < 0: raise ValueError("Must be positive")
+Finally always executes: finally: file.close()
+
+Classes and objects:
+Define class: class Dog: def __init__(self, name): self.name = name
+Create instance: my_dog = Dog("Buddy")
+Access attributes: print(my_dog.name)
+Methods are functions in classes: def bark(self): return "Woof!"
+
+Modules and imports:
+Import module: import math
+Use functions: result = math.sqrt(16)
+From imports: from math import sqrt
+Alias imports: import numpy as np
+
+Algorithm fundamentals:
+Linear search checks each item: for item in list: if item == target: return True
+Binary search divides in half: if target < middle: search left, else: search right
+Bubble sort compares adjacent: for i in range(n): for j in range(n-i-1): if list[j] > list[j+1]: swap
+Selection sort finds minimum: for i in range(n): min_idx = find_min(starting at i)
+
+Search algorithms:
+Depth-first explores deeply: use stack data structure with recursion
+Breadth-first explores widely: use queue data structure iteratively
+Both can traverse tree or graph structures efficiently
+
+Sort algorithms:
+Quick sort picks pivot and partitions: divide and conquer approach
+Merge sort splits and combines: stable and efficient O(n log n)
+Heap sort uses binary heap: in-place sorting algorithm
+
+Data structures implementation:
+Stack uses LIFO: last in, first out principle
+Queue uses FIFO: first in, first out principle
+Linked list connects nodes: each node points to next
+Tree has parent-child: hierarchical structure
+Graph has nodes and edges: represents relationships
+
+Computational complexity:
+Big O notation describes efficiency: O(1) constant, O(n) linear, O(n²) quadratic
+Space complexity measures memory: how much memory algorithm uses
+Choose algorithms based on problem size and constraints
+
+Recursion patterns:
+Base case stops recursion: if n <= 1: return 1
+Recursive case calls itself: return n * factorial(n-1)
+Stack overflow risks: ensure base case is reached
+Memoization optimizes: cache results to avoid recomputation
+
+Dynamic programming:
+Break problems into subproblems: identify overlapping structures
+Use memoization or tabulation: store solutions to subproblems
+Solve in optimal order: build from smallest to largest
+
+Object-oriented design:
+Encapsulation bundles data and methods: group related functionality
+Inheritance allows code reuse: child classes extend parent classes
+Polymorphism enables flexibility: same interface, different implementations
+Abstraction hides complexity: expose only necessary details
+
+Design patterns:
+Singleton ensures one instance: class has only one object
+Factory creates objects: method creates appropriate type
+Observer updates dependents: notify multiple listeners of changes
+Decorator adds functionality: wrap object with additional features
+
+Test and debug:
+Write unit tests: test individual functions in isolation
+Use debugger: set breakpoints and step through code
+Print statements: temporarily add print() to trace execution
+Read error messages carefully: they point to problem locations
+
+Performance tips:
+Use generators for large datasets: yield instead of return
+Profile code to find bottlenecks: measure execution time
+Optimize hot paths: focus on frequently called code
+Cache results when possible: avoid repeating expensive computations
+

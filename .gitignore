@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Checkpoints (large binary files)
+checkpoints/*.pt
+
+# TensorBoard logs
+runs/
+*.tfevents.*
+
+# Large data files (optional - uncomment if you want to exclude)
+# data/**/*.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model outputs
+*.pth
+*.pkl
+

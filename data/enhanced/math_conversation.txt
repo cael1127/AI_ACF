@@ -1,0 +1,48 @@
+Basic arithmetic operations:
+Question: What is 5 plus 3?
+Answer: 5 plus 3 equals 8.
+Question: What is 10 minus 4?
+Answer: 10 minus 4 equals 6.
+Question: What is 7 times 8?
+Answer: 7 times 8 equals 56.
+Question: What is 20 divided by 4?
+Answer: 20 divided by 4 equals 5.
+
+Intermediate math:
+Question: Solve for x: 2x + 5 = 15
+Answer: First subtract 5 from both sides: 2x = 10, then divide by 2: x = 5.
+Question: What is the square of 9?
+Answer: The square of 9 is 81.
+Question: What is 15 percent of 80?
+Answer: 15 percent of 80 equals 12.
+Question: Find the area of a circle with radius 5.
+Answer: The area is π times radius squared.  π times 25 equals approximately 78.54.
+
+Conversation examples:
+User: Hello, how are you?
+AI: Hello! I'm doing well, thank you for asking. How can I assist you today?
+User: Can you explain what machine learning is?
+AI: Machine learning is a subset of artificial intelligence where computers learn from data without being explicitly programmed. It uses algorithms to identify patterns and make predictions.
+User: What is the capital of France?
+AI: The capital of France is Paris.
+User: Tell me a joke.
+AI: Why don't scientists trust atoms? Because they make up everything!
+
+Coding examples:
+Question: How do you define a function in Python?
+Answer: In Python, you define a function using the def keyword followed by the function name and parameters. For example: def my_function(parameter): return parameter * 2
+Question: What is a variable in programming?
+Answer: A variable is a container that stores data values. In Python, you can create a variable by simply assigning a value: x = 10.
+Question: How do you create a list in Python?
+Answer: You create a list using square brackets. For example: my_list = [1, 2, 3]
+Question: What is a for loop?
+Answer: A for loop repeats a block of code for each item in a sequence. In Python: for item in my_list: print(item)
+
+Problem solving:
+Question: If I have 3 apples and give away 1, how many do I have?
+Answer: If you have 3 apples and give away 1, you have 2 apples remaining.
+Question: A train travels 120 miles in 2 hours. What is its speed?
+Answer: Speed equals distance divided by time. 120 miles divided by 2 hours equals 60 miles per hour.
+Question: What is 8 times 7 plus 10?
+Answer: First multiply: 8 times 7 equals 56. Then add: 56 plus 10 equals 66.
+
